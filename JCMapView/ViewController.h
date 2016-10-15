@@ -15,6 +15,10 @@
 
 {
     CLLocationManager *myLocationManager;
+    UISegmentedControl *localSegment;
+    
+    
+    
     
 }
 @property (strong, nonatomic) IBOutlet MKMapView *myMapView;
@@ -26,6 +30,7 @@
 
 
 - (IBAction)startDectingLocationAction:(id)sender;
+- (IBAction)changeMapType:(id)sender;
 
 @end
 
